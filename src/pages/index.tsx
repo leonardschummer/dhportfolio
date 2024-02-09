@@ -47,7 +47,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="h-[30rem] rounded-3xl p-8 bg-[url('./profile.jpg')] bg-cover bg-center" />
+        <div className="h-[30rem] rounded-3xl p-8 bg-[url('/profile.jpg')] bg-cover bg-center" />
 
       </section>
 
@@ -55,7 +55,7 @@ export default function Home() {
         <ProjectPreview
           name="Projects"
           description = " "
-          imageUrl="./project-1.png"
+          imageUrl="/project-1.png"
           bgColor="#685cdd"
           dark
         />
